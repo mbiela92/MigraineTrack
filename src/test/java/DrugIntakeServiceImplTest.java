@@ -5,7 +5,6 @@ import de.biela.migraine.service.impl.MigraineServiceImpl;
 import org.junit.jupiter.api.*;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 

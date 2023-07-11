@@ -1,7 +1,6 @@
 package de.biela.migraine.service;
 
 import de.biela.migraine.model.DrugIntake;
-import de.biela.migraine.model.Migraine;
 
 import java.util.UUID;
 

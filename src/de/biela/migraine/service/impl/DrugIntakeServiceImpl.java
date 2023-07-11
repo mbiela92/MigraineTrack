@@ -2,7 +2,6 @@ package de.biela.migraine.service.impl;
 
 import de.biela.migraine.dao.JDBCUtils;
 import de.biela.migraine.model.DrugIntake;
-import de.biela.migraine.model.Migraine;
 
 import java.math.BigDecimal;
 import java.sql.*;
