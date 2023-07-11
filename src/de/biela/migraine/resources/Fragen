@@ -1,0 +1,10 @@
+In Migraine und DrugIntake habe ich einen leeren Konstruktor erstellt um beim Testen das Objekt anschließend zu
+bestücken ist das sauber? Das kann meiner Meinung nach zu blöden Situationen führen wenn jemand den Konstruktor verwendet.
+
+public void createMigraine(Migraine migraine) und alle anderen Methoden lieber statisch ?
+
+Wie geht man mit Foreign Keys um...
+
+ich kann bei dem Objekt Drugintake direkt die passende migraine id beifügen, dann brauche ich aber bei der create Methode
+nicht die migraine übergeben, damit sie passend zugeordnet wird. Oder soll ich lieber im konstruktor das weglassen und es
+in der create methode fordern
