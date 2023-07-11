@@ -15,6 +15,7 @@ public class JDBCUtils {
         try {
             connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
         } catch (SQLException e) {
+            printSQLException(e);
             e.printStackTrace();
         }
         return connection;
