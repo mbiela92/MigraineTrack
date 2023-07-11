@@ -1,15 +1,10 @@
 package de.biela.migraine.application;
 
-import de.biela.migraine.model.Migraine;
-import de.biela.migraine.service.impl.DrugIntakeServiceImpl;
-import de.biela.migraine.service.impl.MigraineServiceImpl;
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.UUID;
 
 
 public class Main {
